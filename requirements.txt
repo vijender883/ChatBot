@@ -1,0 +1,14 @@
+python-dotenv
+streamlit
+pinecone
+langchain
+langchain-text-splitters
+langchain-google-genai
+langchain-pinecone
+google-generativeai
+pypdf
+google-genai
+fastapi
+uvicorn
+requests
+python-multipart
