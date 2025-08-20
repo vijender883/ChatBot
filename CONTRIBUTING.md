@@ -35,8 +35,8 @@ First, you'll need your own copy of the repository. Click the "Fork" button on t
 Now, clone your forked repository to your local machine.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/rag-chatbot.git
-cd rag-chatbot
+git clone https://github.com/YOUR_USERNAME/ChatBot.git
+cd ChatBot
 ```
 Replace `YOUR_USERNAME` with your GitHub username.
 
@@ -79,7 +79,7 @@ git push origin your-descriptive-branch-name
 
 -   Go to your forked repository on GitHub.
 -   Click the "Compare & pull request" button that appears for your new branch.
--   Make sure the base repository is the original `rag-chatbot` repository and the head repository is your fork.
+-   Make sure the base repository is the original `ChatBot` repository and the head repository is your fork.
 -   Add a clear title and description for your pull request, explaining the changes you've made.
 -   Click "Create pull request".
 

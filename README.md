@@ -1,6 +1,5 @@
 # FastAPI RAG Chatbot with Streamlit
 
-![Project Banner](https://raw.githubusercontent.com/jules-dot-ai/docs/main/images/rag_chatbot_banner.png)
 
 A complete RAG (Retrieval-Augmented Generation) chatbot system that allows users to upload PDF documents and chat with them using Google Gemini and a Pinecone vector database.
 
@@ -32,7 +31,7 @@ Clone the repository, install the dependencies, and set up your environment vari
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/rag-chatbot.git
+git clone https://github.com/vijender883/ChatBot
 cd rag-chatbot
 
 # Install dependencies (preferably in a virtual environment)
