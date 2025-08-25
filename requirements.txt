@@ -12,3 +12,8 @@ fastapi
 uvicorn
 requests
 python-multipart
+langchain-core
+langchain-community
+langchain-chroma
+langchain-mistralai
+pysqlite3-binary
