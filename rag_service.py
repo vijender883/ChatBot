@@ -40,7 +40,7 @@ class RAGService:
         
         # Initialize LLM
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-pro",
+            model="gemini-2.0-flash",
             google_api_key=os.getenv("GOOGLE_API_KEY"),
             temperature=0.3,
             convert_system_message_to_human=True

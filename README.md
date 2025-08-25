@@ -1,18 +1,17 @@
 # FastAPI RAG Chatbot with Streamlit
 
-
 A complete RAG (Retrieval-Augmented Generation) chatbot system that allows users to upload PDF documents and chat with them using Google Gemini and a Pinecone vector database.
 
 This project is designed to be easy to set up and run, even for beginners. It features a friendly Streamlit web interface and a powerful FastAPI backend.
 
 ## ✨ Features
 
--   📄 **PDF Document Processing**: Upload your PDFs and the system will automatically process and index them.
--   🤖 **Conversational AI**: Chat with your documents using the power of Google Gemini.
--   🔍 **Semantic Search**: Powered by Pinecone vector database for accurate and fast retrieval.
--   💬 **Chat History**: The chatbot remembers the context of your conversation.
--   🖥️ **User-Friendly Interface**: A beautiful and intuitive web interface built with Streamlit.
--   ⚡ **Fast & Scalable Backend**: Built with FastAPI.
+- 📄 **PDF Document Processing**: Upload your PDFs and the system will automatically process and index them.
+- 🤖 **Conversational AI**: Chat with your documents using the power of Google Gemini.
+- 🔍 **Semantic Search**: Powered by Pinecone vector database for accurate and fast retrieval.
+- **Chat History**: The chatbot remembers the context of your conversation.
+- 🖥️ **User-Friendly Interface**: A beautiful and intuitive web interface built with Streamlit.
+- ⚡ **Fast & Scalable Backend**: Built with FastAPI.
 
 ## 🚀 Getting Started
 
@@ -21,9 +20,10 @@ Welcome! To get the chatbot running on your local machine, follow these simple s
 ### 1. Prerequisites
 
 Make sure you have the necessary API keys and software.
--   **Google AI API Key**
--   **Pinecone API Key**
--   **Python 3.7+** and **Git**
+
+- **Google AI API Key**
+- **Pinecone API Key**
+- **Python 3.7+** and **Git**
 
 ### 2. Installation
 
@@ -44,12 +44,14 @@ pip install -r requirements.txt
 
 You'll need to run the backend and frontend in two separate terminals.
 
-1.  **Start the Backend**:
+1. **Start the Backend**:
+
     ```bash
     uvicorn main:app --reload --host 0.0.0.0 --port 8000
     ```
 
-2.  **Start the Frontend**:
+2. **Start the Frontend**:
+
     ```bash
     streamlit run streamlit_app.py
     ```
@@ -60,10 +62,10 @@ Your application should now be running and accessible in your web browser at `ht
 
 We have comprehensive documentation to help you understand, use, and customize the project.
 
--   **[Installation Guide](./docs/INSTALLATION.md)**: Detailed setup instructions.
--   **[Configuration Guide](./docs/CONFIGURATION.md)**: How to customize the RAG pipeline.
--   **[API Reference](./docs/API_REFERENCE.md)**: Details on the FastAPI endpoints.
--   **[Troubleshooting Guide](./docs/TROUBLESHOOTING.md)**: Solutions for common issues.
+- **[Installation Guide](./docs/INSTALLATION.md)**: Detailed setup instructions.
+- **[Configuration Guide](./docs/CONFIGURATION.md)**: How to customize the RAG pipeline.
+- **[API Reference](./docs/API_REFERENCE.md)**: Details on the FastAPI endpoints.
+- **[Troubleshooting Guide](./docs/TROUBLESHOOTING.md)**: Solutions for common issues.
 
 ## 🤝 Contributing
 

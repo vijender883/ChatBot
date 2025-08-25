@@ -10,13 +10,13 @@ There are many ways to contribute, from writing tutorials or blog posts, improvi
 
 ### Reporting Bugs
 
--   **Ensure the bug was not already reported** by searching the GitHub Issues.
--   If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+- **Ensure the bug was not already reported** by searching the GitHub Issues.
+- If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
 ### Suggesting Enhancements
 
--   Open a new issue with the `enhancement` label.
--   Clearly describe the enhancement and the motivation for it.
+- Open a new issue with the `enhancement` label.
+- Clearly describe the enhancement and the motivation for it.
 
 ### Your First Code Contribution
 
@@ -38,6 +38,7 @@ Now, clone your forked repository to your local machine.
 git clone https://github.com/YOUR_USERNAME/ChatBot.git
 cd ChatBot
 ```
+
 Replace `YOUR_USERNAME` with your GitHub username.
 
 ### 3. Create a New Branch
@@ -47,15 +48,16 @@ It's important to create a new branch for each feature or bug fix you work on. T
 ```bash
 git checkout -b your-descriptive-branch-name
 ```
+
 For example, `git checkout -b fix-pdf-parsing-bug` or `git checkout -b add-new-llm-support`.
 
 ### 4. Make Your Changes
 
 Now you can make your changes to the code.
 
--   Make sure to follow the coding style of the project.
--   Add comments to your code where necessary.
--   If you add a new feature, please add tests for it.
+- Make sure to follow the coding style of the project.
+- Add comments to your code where necessary.
+- If you add a new feature, please add tests for it.
 
 ### 5. Commit Your Changes
 
@@ -65,6 +67,7 @@ Once you are happy with your changes, commit them with a clear and descriptive c
 git add .
 git commit -m "feat: Describe your feature or fix"
 ```
+
 We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. Common prefixes include `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`.
 
 ### 6. Push to Your Fork
@@ -77,11 +80,11 @@ git push origin your-descriptive-branch-name
 
 ### 7. Submit a Pull Request (PR)
 
--   Go to your forked repository on GitHub.
--   Click the "Compare & pull request" button that appears for your new branch.
--   Make sure the base repository is the original `ChatBot` repository and the head repository is your fork.
--   Add a clear title and description for your pull request, explaining the changes you've made.
--   Click "Create pull request".
+- Go to your forked repository on GitHub.
+- Click the "Compare & pull request" button that appears for your new branch.
+- Make sure the base repository is the original `ChatBot` repository and the head repository is your fork.
+- Add a clear title and description for your pull request, explaining the changes you've made.
+- Click "Create pull request".
 
 Our team will then review your contribution. We may suggest some changes or improvements.
 
