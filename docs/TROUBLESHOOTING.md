@@ -13,7 +13,7 @@ This guide helps you resolve common issues you might encounter while running the
 2.  **Pinecone Index Error**:
     - **Symptom**: Errors related to creating, connecting to, or writing to the Pinecone index.
     - **Solution**:
-        - Double-check your `PINECONE_API_KEY` and `PINECONE_ENVIRONMENT` in your `.env` file.
+        - Double-check your `PINECONE_API_KEY` in your `.env` file.
         - Verify that the `PINECONE_INDEX_NAME` matches the index you intend to use in your Pinecone account.
         - Ensure your internet connection is stable.
 
@@ -35,7 +35,6 @@ A common source of errors is incorrect or missing environment variables. Make su
 
 -   `GOOGLE_API_KEY`: Your Google AI API key.
 -   `PINECONE_API_KEY`: Your Pinecone API key.
--   `PINECONE_ENVIRONMENT`: Your Pinecone environment name.
 -   `PINECONE_INDEX_NAME`: The name for your Pinecone index.
 
 ## Performance Tips
