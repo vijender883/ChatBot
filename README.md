@@ -12,6 +12,7 @@ This project is designed to be easy to set up and run, even for beginners. It fe
 - **Chat History**: The chatbot remembers the context of your conversation.
 - 🖥️ **User-Friendly Interface**: A beautiful and intuitive web interface built with Streamlit.
 - ⚡ **Fast & Scalable Backend**: Built with FastAPI.
+- 🛠️ **LangSmith Tracing**: Integrated tracing for observability of RAG pipeline steps (Retriever, Prompt, LLM).
 
 ## 🚀 Getting Started
 
@@ -32,7 +33,7 @@ Clone the repository, install the dependencies, and set up your environment vari
 ```bash
 # Clone the repository
 git clone https://github.com/vijender883/ChatBot
-cd rag-chatbot
+cd ChatBot
 
 # Install dependencies (preferably in a virtual environment)
 pip install -r requirements.txt
@@ -46,15 +47,15 @@ You'll need to run the backend and frontend in two separate terminals.
 
 1. **Start the Backend**:
 
-    ```bash
-    uvicorn main:app --reload --host 0.0.0.0 --port 8000
-    ```
+   ```bash
+   uvicorn main:app --reload --host 0.0.0.0 --port 8000
+   ```
 
 2. **Start the Frontend**:
 
-    ```bash
-    streamlit run streamlit_app.py
-    ```
+   ```bash
+   streamlit run streamlit_app.py
+   ```
 
 Your application should now be running and accessible in your web browser at `http://localhost:8501`.
 
