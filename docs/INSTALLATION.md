@@ -17,8 +17,8 @@ Before you begin, ensure you have the following:
     First, open your terminal or command prompt and clone the repository to your local machine using Git:
 
     ```bash
-        git clone https://github.com/your-username/rag-chatbot.git
-        cd rag-chatbot
+        git clone https://github.com/your-username/Chatbot.git
+        cd Chatbot
     ```
 
     *(Note: If you plan to contribute, we recommend forking the repository first. See our [Contributing Guide](../CONTRIBUTING.md) for more details.)*
