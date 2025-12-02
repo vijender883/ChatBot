@@ -13,8 +13,10 @@ Before you begin, ensure you have the following:
 
 ## Installation Steps
 
-1. **Clone the Repository**:
-    First, open your terminal or command prompt and clone the repository to your local machine using Git:
+1. **Fork the Repository and then Clone the Repository**:
+   Firstly, fork the repository from https://github.com/vijender883/ChatBot.
+   
+   Secondly, open your terminal or command prompt and clone the repository to your local machine using Git:
 
     ```bash
         git clone https://github.com/your-username/Chatbot.git
@@ -23,7 +25,7 @@ Before you begin, ensure you have the following:
 
     *(Note: If you plan to contribute, we recommend forking the repository first. See our [Contributing Guide](../CONTRIBUTING.md) for more details.)*
 
-2. **Install Dependencies**:
+3. **Install Dependencies**:
     Install the required Python packages using `pip`. It's a good practice to do this in a virtual environment.
 
     ```bash
@@ -35,7 +37,7 @@ Before you begin, ensure you have the following:
         pip install -r requirements.txt
     ```
 
-3. **Set Up Environment Variables**:
+4. **Set Up Environment Variables**:
     The application uses a `.env` file to manage secret keys. Create a file named `.env` in the root of the project directory.
     Copy the following into your `.env` file and replace the placeholders with your actual credentials:
 
